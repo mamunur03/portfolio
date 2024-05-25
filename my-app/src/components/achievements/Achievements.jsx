@@ -43,9 +43,9 @@ const Achievements = () => {
         >
           {data.map(({ title, date, description, image }, index) => (
             <SwiperSlide key={index} className="achievement">
-              <div className='achievement__image'>
+              {/*<div className='achievement__image'>
                 <img src={image} alt={title} />
-              </div>
+          </div>*/}
               <h5 className='achievement__title'>{title}</h5>
               <h5 className='achievement__date'>{date}</h5>
               <p className='achievement__description'>{description}</p>
